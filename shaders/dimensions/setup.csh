@@ -813,6 +813,13 @@ void main() {
             mixWeight = 0.8;
         }
 
+        #ifdef TOTEM_LIGHT
+            if (blockId == ITEM_TOTEM_OF_UNDYING) {
+                lightColor = vec3(TOTEM_LIGHT_R, TOTEM_LIGHT_G, TOTEM_LIGHT_B);
+                lightRange = TOTEM_LIGHT_RANGE;
+            }
+        #endif
+
         if (
             blockId == WISPJELLY
         ) {

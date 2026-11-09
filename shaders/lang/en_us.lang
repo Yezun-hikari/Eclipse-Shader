@@ -264,6 +264,12 @@ screen.Direct_Light = Direct Light
             option.BEACON_FLOODFILL.comment = Whether Beacon Beams should emit colored lighting. §aPERFORMANCE COST:§r Low
         option.BEACON_FLOODFILL_BRIGHTNESS = Beacon Beam Floodfill Brightness
             suffix.BEACON_FLOODFILL_BRIGHTNESS=%
+        screen.Totem_Light = Totem Light
+            option.TOTEM_LIGHT = Glowing Totem
+            option.TOTEM_LIGHT_R = Red Amount
+            option.TOTEM_LIGHT_G = Green Amount
+            option.TOTEM_LIGHT_B = Blue Amount
+            option.TOTEM_LIGHT_RANGE = Light Range
 
 
 
@@ -1065,6 +1071,9 @@ screen.Ambient_light.comment = Configure settings related to the lighting in sha
     option.LPV_NOSHADOW_HACK.comment = Fix for Iris 1.7.0 and lower! Allows floodfill to work in Nether & End, but disables entity & dropped item lights.
     option.LPV_VL_FOG_ILLUMINATION.comment = Allow the colored lighting to light up the air around it. Enabling it for outdoors may look weird with low fog samples.
     option.LPV_VL_FOG_ILLUMINATION_BRIGHTNESS.comment = Configure the brightness of lit up fog.
+    screen.Totem_Light.comment = Make a held Totem of Undying emit light like a torch. Requires FloodFill (Colored Lights).
+        option.TOTEM_LIGHT.comment = A Totem of Undying held in the main or off hand lights up its surroundings. Requires FloodFill (Colored Lights).
+        option.TOTEM_LIGHT_RANGE.comment = How far the totem's light reaches, in blocks. A torch reaches 14.
     
 screen.Resource_Pack_Support.comment = A handfull of effects that use information provided by a resourcepack.
     screen.SPECULAR.comment = Configure the reflections. they can use information provided by a LabPBR resourcepack.

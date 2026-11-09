@@ -276,6 +276,12 @@ screen.Direct_Light = 直接光照
         option.LPV_HANDHELD_SHADOWS_QUALITY = 手持物品阴影质量
             value.LPV_HANDHELD_SHADOWS_QUALITY.0 = 低
             value.LPV_HANDHELD_SHADOWS_QUALITY.1 = 高
+        screen.Totem_Light = 不死图腾光源
+            option.TOTEM_LIGHT = 发光的图腾
+            option.TOTEM_LIGHT_R = 红色量
+            option.TOTEM_LIGHT_G = 绿色量
+            option.TOTEM_LIGHT_B = 蓝色量
+            option.TOTEM_LIGHT_RANGE = 光照范围
 
 
 screen.Ambient_light = 环境光
@@ -1054,6 +1060,9 @@ screen.Ambient_light.comment = 配置阴影处光照相关的设置
     option.LPV_NOSHADOW_HACK.comment = Iris 1.7.0 及更低版本的修复！允许泛光填充在下界和末地工作，但禁用实体和掉落物光源。
     option.LPV_VL_FOG_ILLUMINATION.comment = 允许彩色光照照亮其周围的空气。为室外启用它可能在雾采样数低时看起来奇怪。
     option.LPV_VL_FOG_ILLUMINATION_BRIGHTNESS.comment = 配置被照亮的雾的亮度。
+    screen.Totem_Light.comment = 让手持的不死图腾像火把一样发光。需要启用泛光填充（彩色灯光）。
+        option.TOTEM_LIGHT.comment = 主手或副手持有的不死图腾会照亮周围环境。需要启用泛光填充（彩色灯光）。
+        option.TOTEM_LIGHT_RANGE.comment = 图腾光照能到达的距离（以方块为单位）。火把的光照范围为 14。
     
 screen.Resource_Pack_Support.comment = 一些使用资源包提供信息的特效。
     screen.SPECULAR.comment = 配置反射。它们可以使用 LabPBR 资源包提供的信息。
